@@ -1,0 +1,26 @@
+# Node/PNPM
+node_modules/
+.pnpm-store/
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+.next/
+out/
+coverage/
+
+# Env
+.env*
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Storybook
+storybook-static/
+
+# Misc
+.turbo/
+.cache/
+
