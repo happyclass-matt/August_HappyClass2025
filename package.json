@@ -1,0 +1,40 @@
+{
+  "name": "happyclass",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.6.0",
+  "scripts": {
+    "dev": "pnpm -C apps/web dev",
+    "build": "pnpm -r build",
+    "start": "pnpm -C apps/web start",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "test:unit": "pnpm -r --filter ./packages/* test",
+    "test:e2e": "pnpm -C apps/web test:e2e",
+    "storybook": "pnpm -C packages/ui storybook",
+    "test:visual": "pnpm -C packages/ui test:visual"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "docs",
+    "infra",
+    "knowledge"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "czg": "^1.9.3",
+    "eslint": "^9.11.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.8",
+    "typescript": "^5.6.2"
+  }
+}
+

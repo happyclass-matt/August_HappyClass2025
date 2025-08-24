@@ -1,0 +1,44 @@
+:root {
+	/* Color tokens */
+	--color-canvas: #fffcf6;
+	--color-paper: #fafaf9;
+	--color-panel: #ffffff;
+	--color-line: #eae8e4;
+	--color-focus: #0b5fff;
+	--color-text-primary: #0e1116;
+	--color-text-secondary: #38404b;
+	--color-text-muted: #606775;
+	--color-brand-primary: #1e63ff;
+	--color-brand-primary-hover: #144ee3;
+	--color-brand-primary-on: #ffffff;
+	--color-brand-accent-1: #c89a3a;
+	--color-brand-accent-2: #ff6b6b;
+	--color-brand-success: #16a34a;
+	--color-brand-warning: #f59e0b;
+	--color-brand-danger: #ef4444;
+
+	/* Radius */
+	--radius-sm: 8px;
+	--radius-md: 12px;
+	--radius-lg: 16px;
+	--radius-pill: 9999px;
+
+	/* Shadows with soft penumbra */
+	--shadow-sm: 0 1px 2px rgb(0 0 0 / 0.06);
+	--shadow-md: 0 4px 16px rgb(0 0 0 / 0.08);
+	--shadow-lg: 0 12px 32px rgb(0 0 0 / 0.10);
+
+	/* Typography tokens */
+	--font-ui: 'Inter var', Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	--font-display: 'Source Serif 4', ui-serif, Georgia, serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	color-scheme: light;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background: var(--color-canvas);
+	color: var(--color-text-primary);
+	font-family: var(--font-ui, ui-sans-serif), system-ui, sans-serif;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@happyclass/config",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./eslint": "./eslint/index.cjs",
+    "./prettier": "./prettier/index.cjs",
+    "./tsconfig/base": "./tsconfig/base.json",
+    "./commitlint": "./commitlint/index.cjs"
+  }
+}
+
